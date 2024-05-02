@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+#login{
+    height: 90vh;
+}
+
+.title{
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+.card{
+    width: 40%;
+}
+.desc{
+    font-weight: 500;
+    font-size: smaller;
+}
+.login-btn{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.card-head{
+    background-color: #AC94FA;
+}
+.text{
+    color: #3C366B;
+}
+.btn{
+    color: #3C366B;
+    background-color: #AC94FA;
+}
+
+@media screen and (max-width:991px) {
+    .card{
+        width: 100%;
+    }
+}
