@@ -24,7 +24,7 @@ export default function Page() {
       lname:data.lname
     }
     
-    let response = await postRequest("http://localhost:3000/api/carts",payload)
+    let response = await postRequest("http://localhost:3001/api/carts",payload)
     enqueueSnackbar(response.data.fname,{variant:'success'})
     
   }
